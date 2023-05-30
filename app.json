@@ -51,12 +51,6 @@
             "required": "False",
             "value": "Heroku-Bot"
         },
-        "STREAMTAPE_API_USERNAME": {
-            "description": "Your Streamtape API Username for Uploading to Streamtape if File size is bigger than 2GB."
-        },
-        "STREAMTAPE_API_PASS": {
-            "description": "Your Streamtape API Password for Uploading to Streamtape if File size is bigger than 2GB."
-        },
         "BROADCAST_AS_COPY": {
             "description": "Broadcast as Copy or with Forward Tag. Value should be True/False."
         }
@@ -72,7 +66,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
